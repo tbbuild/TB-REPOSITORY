@@ -12,4 +12,21 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="plugin.video.tbtv" name="TB TV" version="1.0.0" provider-name="TB BUILD">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">TB TV</summary>
+		<description lang="en">TB BUILD TV</description>
+		<license>GNU General Public License, v1</license>
+		<language></language>
+	
+	</extension>
+</addon>
 </addons>
