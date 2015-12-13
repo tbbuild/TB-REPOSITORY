@@ -22,6 +22,21 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.tbbuild" name="TB BUILD Wizard" version="TB" provider-name="tbbuild.co.uk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TB Build Wizard :)</summary>
+    <description lang="en">TB BUILD WIZARD, SPORTS, FILMS, TV SHOWS. ALL VIEWS SET AND INCLUDES ADVANCED XML, SO BYE BYE BUFFERING!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tbtv" name="TB TV" version="1.0.0" provider-name="TB BUILD">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
