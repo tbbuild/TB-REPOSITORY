@@ -33,11 +33,12 @@ EXCLUDES     = ['plugin.video.tbbuild','script.module.addon.common', 'RssFeeds.x
 
 def INDEX():
     addDir('INSTALL TB BUILD',BASEURL,2,ART+'install.png',FANART,'')
+    addDir('MAINTENANCE',BASEURL,3,ART+'maintenance.png',FANART,'')
     setView('movies', 'MAIN')
 
 def BUILDMENU():
     addDir('INSTALL TB BUILD ORIGINAL',BASEURL+'/build/builds/tboriginal.zip',5,ART+'original.png',FANART,'')
-    addDir('INSTALL TB BUILD TITAN',BASEURL+'/build/builds/tbtitan.zip',5,ART+'titan.png',FANART,'')
+	
     setView('movies', 'MAIN')
 	
 def MAINTENANCE():
