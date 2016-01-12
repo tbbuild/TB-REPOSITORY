@@ -37,7 +37,7 @@ def INDEX():
     setView('movies', 'MAIN')
 
 def BUILDMENU():
-    addDir('INSTALL TB BUILD ORIGINAL',BASEURL+'/build/builds/tboriginal.zip',5,ART+'original.png',FANART,'')
+    addDir('INSTALL TB BUILD ORIGINAL',BASEURL+'/build/1/tboriginal.zip',5,ART+'original.png',FANART,'')
 	
     setView('movies', 'MAIN')
 	
