@@ -32,13 +32,13 @@ H = 'http://'
 EXCLUDES     = ['plugin.video.tbbuild','script.module.addon.common', 'RssFeeds.xml']
 
 def INDEX():
-    addDir('INSTALL TB BUILD',BASEURL,2,ART+'install.png',FANART,'')
+    addDir('INSTALL TB BUILDS',BASEURL,2,ART+'install.png',FANART,'')
     addDir('MAINTENANCE',BASEURL,3,ART+'maintenance.png',FANART,'')
     setView('movies', 'MAIN')
 
 def BUILDMENU():
     addDir('INSTALL TB BUILD ORIGINAL',BASEURL+'/build/1/tboriginal.zip',5,ART+'original.png',FANART,'')
-	
+    addDir('INSTALL TB ADMIN CM BUILD',BASEURL+'/build/colin/colinsbuild.zip',5,ART+'colins.png',FANART,'')	
     setView('movies', 'MAIN')
 	
 def MAINTENANCE():
